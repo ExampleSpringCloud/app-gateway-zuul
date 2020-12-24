@@ -8,5 +8,5 @@ based on https://github.com/Netflix/zuul
 ### Test Application
 - because of gateway.properties from app-config server
 <code>zuul.routes.book-service.path=/book-service/**</code>  
-going to <code>http://localhost:3333/book-service/books</code>  
-returns the same thing as <code>http://localhost:8083/books/</code>
+going to http://localhost:3333/book-service/books
+returns the same thing as http://localhost:8083/books/
